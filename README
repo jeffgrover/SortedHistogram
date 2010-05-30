@@ -1,0 +1,31 @@
+
+
+README File for Jeff Grover's implementation of a simple coding assignment:
+
+1.  What is this?
+    - This is a simple coding assignment I completed a while ago.  The assignment
+      was to write a command-line app that took unsorted integers in a file as input
+      and wrote two files, one with the integers sorted and the other with a
+      histogram showing the occurrences of each integer in the list.
+    - The only stipulation was that simple integers and arrays be used, and no
+      language-provided special containers or sorting be used.
+
+2.  How to build and run the program and associated tests
+	- I've taken some pains to make it easy to build in 1 step with minimal tools
+		  The code should compile & run on pretty much any machine with a JDK v1.6
+		  Requires only the JDK be installed, with PATH defined to java, javac, jar
+    - Because of size, I have removed jruby-complete-1.4.0.jar from the "lib"
+      directory.  Download it and place it in that directory (where junit.jar is).
+	- To build and run everything, just type "run" in the directory with this file
+		  For Windows, this will execute a "run.bat" batch file
+		  The "./run" Linux/Mac shell script may need "chmod 755" run permissions
+		  Both of these OS scripts call a JRuby script, build.rb
+		  If you're wondering why the.zip file was so big, now you know (jruby :))
+	- To perform one of the steps in isolation, add an argument to "run"
+	- An IntelliJ project (SortedHistogram.iml) is also included for convenience
+	
+3.  Location of output
+	- The executable .jar compiled by the steps above can be found at
+	  out/sorted-histogram.jar
+
+  
