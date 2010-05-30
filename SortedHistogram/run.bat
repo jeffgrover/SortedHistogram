@@ -1,0 +1,1 @@
+java -jar lib/jruby-complete-1.4.0.jar runner.rb %1
